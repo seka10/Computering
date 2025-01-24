@@ -15,7 +15,7 @@ import {
   FaTwitter,
   FaTelegram,
 } from "react-icons/fa";
-import creditCards from "../../assets/Credit-Cards.png";
+import creditCards from "../../assets/creditCards.png";
 const fadeUp = (delay) => ({
   hidden: { opacity: 0, y: 100, scale: 0.5 },
   show: {
@@ -433,7 +433,7 @@ const Footer = () => {
                     variants={fadeUp(2.4)}
                     initial="hidden"
                     whileInView="show"
-                    className="w-[200%] cursor-pointer"
+                    className="w-[75%] h-[75%] cursor-pointer"
                     src={creditCards}
                     alt=""
                   />

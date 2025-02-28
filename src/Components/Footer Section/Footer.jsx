@@ -339,7 +339,7 @@ const Footer = () => {
                   variants={fadeUp(1.5)}
                   initial="hidden"
                   whileInView="show"
-                  href="https://www.facebook.com/XSeka10X"
+                  href="https://www.facebook.com/profile.php?id=100014948612662"
                   className="text-2xl hover:transform translate-all hover:-translate-y-2 duration-500 hover:scale-150"
                 >
                   <FaFacebook />
